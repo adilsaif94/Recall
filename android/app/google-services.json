@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "723986091886",
+    "project_id": "recall-1bbe3",
+    "storage_bucket": "recall-1bbe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723986091886:android:fa4fd719dbbd3ed6f2bb7f",
+        "android_client_info": {
+          "package_name": "com.recall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSvSslAz6WUVnzV-LLvSIDZrl_Xh5ycAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
