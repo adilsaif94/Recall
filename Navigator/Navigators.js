@@ -9,9 +9,6 @@ import Home from '../Screen/Home';
 
 const Stack = createNativeStackNavigator();
 
-
-
-
 const Navigators = () => {
   return (
 
