@@ -66,5 +66,5 @@ app.delete('/delete/:id', (req, res) => {
 app.use('/uploads', express.static(path.join(__dirname, uploadDir)));
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://192.168.36.142:${PORT}`);
+  console.log(`Server running on http://454545.45.4.45:${PORT}`);
 });

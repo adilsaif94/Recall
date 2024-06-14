@@ -148,7 +148,7 @@ const Home = ({ navigation }) => {
     });
 
     try {
-      const response = await axios.post('http://192.168.36.142:3000/upload', data, {
+      const response = await axios.post('http://454544.45.45:3000/upload', data, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -165,7 +165,7 @@ const Home = ({ navigation }) => {
   const fetchUploadedFiles = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://192.168.36.142:3000/uploadedFiles');
+      const response = await axios.get('http://454544.45.45:3000/uploadedFiles');
       console.log('Fetch Uploaded Files Response:', response.data);
 
       
@@ -187,7 +187,7 @@ const Home = ({ navigation }) => {
   const handleDelete = async (id) => {
     setLoading(true);
     try {
-      await axios.delete(`http://192.168.36.142:3000/delete/${id}`);
+      await axios.delete(`http://454544.45.45:3000/delete/${id}`);
       fetchUploadedFiles(); 
     } catch (error) {
       console.log('Delete Error:', error);
